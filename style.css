@@ -1,0 +1,11 @@
+body {
+  font-family: sans-serif;
+  padding: 20px;
+}
+
+.ramo {
+  padding: 10px;
+  margin: 5px 0;
+  color: white;
+  border-radius: 5px;
+}
