@@ -17,7 +17,7 @@
   ],
   "s3": [ 
     ["Introducción a la Medicina y Procedimientos","MED-222101", 4, 4, "FE", [], "I"],
-    ["Bioética", "MED-222102", 3, 3, "FG", [], "I],
+    ["Bioética", "MED-222102", 3, 3, "FG", [], "I"],
     ["Fisiología Humana II", "MED-222103", 7, 7, "FG", ["MED-221104","MED-221202"] "I"],
     ["Histología", "MED-222104", 8, 8, "FG", ["MED-221105","MED-221104"] "I"],
     ["Metodología de la Investigación en Salud", "MED2-22105", 5, 5, "FG", ["MED-221106"] "I"],
@@ -85,7 +85,7 @@
 ],
 "s12": [
   ["Internado de Cirugía y Especialidades Quirúrgicas","MED-246201", 4, 4, "FP", ["MED-225204","MED-225205","MED-225201","MED-225202","MED-225206","MED-225203"], "P"],
-  ["Internado de Traumatología","MED-246202", sct: 6, "FP", ["MED-225204","MED-225205","MED-225201","MED-225202","MED-225206","MED-225203"], "P"]
+  ["Internado de Traumatología","MED-246202", 6, 6, "FP", ["MED-225204","MED-225205","MED-225201","MED-225202","MED-225206","MED-225203"], "P"]
 ],
 "s13": [
   ["Internado de Ginecología y Obstetricia","MED-247101", 24, 24, "FP", ["MED-225204","MED-225205","MED-225201","MED-225202","MED-225206","MED-225203"], "I"],
