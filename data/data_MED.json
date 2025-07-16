@@ -1,0 +1,99 @@
+{
+  "s1": [
+    ["Autogestión del Aprendizaje", "MED-221101", 2, 2, "FG", [], "I"],
+    ["Física Aplicada a la Medicina", "MED-221102", 4, 4, "FG", [], "I"],
+    ["Química General y Orgánica", "MED-221103", 5, 5, "FG", [], "I"],
+    ["Biología Celular y Molecular", "MED-221105", 7, 7, "FG", [], "I"],
+    ["Matemática para Medicina", "MED-221106", 4, 4, "FG", [], "I"],
+    ["Anatomía y Embriología", "MED-221104", 7, 7, "FG", [], "A"]
+  ],
+  "s2": [
+    ["Humanización de la Atención en Medicina", "MED-221201", 3, 3, "FE", [], "P"],
+    ["Fisiología Humana I", "MED-221202", 7, 7, "FG", ["MED-221102", "MED-221105"], "P"],
+    ["Bioquímica", "MED-221203", 8, 8, "FG", ["MED221103", "MED-221105"], "P"],
+    ["Comunicación Efectiva", "MED-221205", 3, 3, "FG", [], "P"],
+    ["Inglés I", "MED-221206", 3, 3, "FG", [], "P"]
+    ["Anatomía y Embriología", "MED-221104", 7, 7, "FG", [], "A"]
+  ],
+  "s3": [ 
+    ["Introducción a la Medicina y Procedimientos","MED-222101", 4, 4, "FE", [], "I"],
+    ["Bioética", "MED-222102", 3, 3, "FG", [], "I"],
+    ["Fisiología Humana II", "MED-222103", 7, 7, "FG", ["MED-221104","MED-221202"] "I"],
+    ["Histología", "MED-222104", 8, 8, "FG", ["MED-221105","MED-221104"] "I"],
+    ["Metodología de la Investigación en Salud", "MED2-22105", 5, 5, "FG", ["MED-221106"] "I"],
+    ["Inglés II", "MED-222106", 3, 3, "FG", ["MED-221206"] "I"]
+  ],
+  "s4": [
+    ["Bioética Aplicada I","MED-222201", 4, 4, "FE", ["MED-222102"] "P"],
+    ["Psicología Médica","MED-222202", 3, 3, "FE", [], "P"],
+    ["Farmacología Médica I","MED-222204", 5, 5, "FE", ["MED-221203","MED-222103"], "P"],
+    ["Fisiopatología I","MED-222203", 5, 5, "FE", ["MED-222103"], "P"],
+    ["Neurociencia Básica","MED-222205", 5, 5, "FG", ["MED-221104"] ],
+    ["Microbiología General e Inmunología","MED-222206", 4, 4, "FG", ["MED-221105"], "P"],
+    ["Bioestadística","MED-222207", 4, 4, "FG", ["MED-222105"], "P"]
+ ], 
+ "s5": [ 
+   ["Farmacología Médica II","MED-223104", 5, 5, "FE", ["MED-222204"], "I"],
+   ["Psicopatología Médica","MED-223102", 5, 5, "FE", ["MED-222202"], "I"],
+   ["Fisiopatología II","MED-223103", 5, 5, "FE", ["MED-222203"], "I"],
+   ["Enfermedades Infecciosas","MED-223105", 5, 5, "FE", ["MED-222206"], "I"],
+   ["Epidemiología y Medicina Basada en Evidencia","MED-223106", 4, 4, "FE", ["MED-222207"], "I"],
+   ["Semiología Médico Quirúrgica","MED-223101", 6, 6, "FE", ["MED-222101","MED-221104","MED-222205","MED-222103"], "A"]
+ ], 
+ "s6": [
+   ["Semiología Médico Quirúrgica","MED-223101", 6, 6, "FE", ["MED-222101","MED-221104","MED-222205","MED-222103"], "A"],
+   ["Sociología Médica","MED-223203", 3, 3, "FE", [], "P"],                                                                                                  
+   ["Informática Médica","MED-223206", 3, 3, "FE", [], "P"],                                                                                                   
+   ["Salud Pública y Gestión","MED-223207", 6, 6, "FE", ["MED-223106"], "P"],                            
+   ["Inglés para Medicina I","MED-223208", 3, 3, "FG", ["MED-222106"], "P"],
+   ["Nutrición y Vida Sana","MED-223204", 3, 3, "FE", [], "P"],                                                                                                  
+   ["Optativo I","MED-223205", 3, 3, "FO", [], "P"],                                                                                                  
+   ["Electivo I","MED-223202", 3, 3, "EL", [], "P"] 
+ ],
+"s7": [
+   ["Integrado Médico-Quirúrgico","MED-224102", 15, 15, "FE", ["MED-223101","MED-222201","MED-223103","MED-223104","MED-222104","MED-223105"], "A"],
+   ["Seminario para la Investigación en Salud","MED-224101", 3, 3, "FE", [], "I"],                                                                                                                          
+   ["Optativo II","MED-224104", 3, 3, "FO", [], "I"],                                                                                                                       
+   ["Neurociencia Clínica","MED-224103", 6, 6, "FE", ["MED-222205","MED-223102"], "I"],                                                                                    
+   ["Inglés para Medicina II","MED-224105", 3, 3, "FG", ["MED-223208"], "I"]                   
+],
+"s8": [
+  ["Integrado Médico-Quirúrgico","MED-224102", 15, 15, "FE", ["MED-223101","MED-222201","MED-223103","MED-223104","MED-222104","MED-223105"], "P"],
+  ["Proyecto de Investigación en Salud I","MED-224201", 3, 3, "FE", ["MED-224101"], "P"],                                                                                       
+  ["Electivo II","MED-224204", 3, 3, "EL", [], "P"],                                                                                                                          
+  ["Medicina Física y Rehabilitación","MED-224203", 4, 4, "FE", [], "P"],                                                                                                                           
+  ["Medicina Preventiva","MED-224205", 5, 5, "FE", ["MED-223105"], "P"] 
+],
+"s9": [
+  ["Proyecto de Investigación en Salud II","MED-225101", 3, 3, "FE", ["MED-224201"], "I"],
+  ["Pediatría y Cirugía Infantil","MED-225103", 15, 15, "FE", ["MED224102"], "I"],     
+  ["Traumatología y Ortopedia","MED-225102", 3, 3, "FE", ["MED-224102"], "I"],       
+  ["Dermatología","MED-225104", 3, 3, "FE", ["MED-224102"], "I"],    
+  ["Oftalmología","MED-225105", 3, 3, "FE", [], "I"]                             
+],
+"s10": [
+  ["Integrado de Ginecología y Obstetricia","MED-225204", 14, 14, "FE", ["MED-224102"], "P"],
+  ["Psiquiatría","MED-225205", 5, 5, "FE", ["MED-224102"], "P"],
+  ["Atención Primaria y Medicina Familiar","MED-225201", 4, 4, "FE", ["MED-224102"], "P"],
+  ["Medicina Legal y Forense","MED-225202", 2, 2, "FE", ["MED-224102"], "P"],
+  ["Otorrinolaringología","MED-225206", 3, 3, "FE", ["MED-224102"], "P"],
+  ["Medicina Laboral/Toxicología","MED-225203", 2, 2, "FE", ["MED-224102"], "P"]
+],                                                                                                
+"s11": [
+  ["Internado de Medicina Interna","MED-246101", 24, 24, "FP", ["MED-225204","MED-225205","MED-225201","MED-225202","MED-225206","MED-225203"], "I"],
+  ["Internado de Medicina Familiar Comunitaria y Rural","MED-246102", 18, 18, "FP", ["MED-225204","MED-225205","MED-225201","MED-225202","MED-225206","MED-225203"], "I"]
+],
+"s12": [
+  ["Internado de Cirugía y Especialidades Quirúrgicas","MED-246201", 4, 4, "FP", ["MED-225204","MED-225205","MED-225201","MED-225202","MED-225206","MED-225203"], "P"],
+  ["Internado de Traumatología","MED-246202", 6, 6, "FP", ["MED-225204","MED-225205","MED-225201","MED-225202","MED-225206","MED-225203"], "P"]
+],
+"s13": [
+  ["Internado de Ginecología y Obstetricia","MED-247101", 24, 24, "FP", ["MED-225204","MED-225205","MED-225201","MED-225202","MED-225206","MED-225203"], "I"],
+  ["Internado de Psiquiatría y Salud Mental Comunitaria","MED-247102", 9, 9, "FP", ["MED-225204","MED-225205","MED-225201","MED-225202","MED-225206","MED-225203"], "I"]
+],
+"s14": [
+  ["Internado de Pediatría","MED-247201", 24, 24, "FP", ["MED-225204","MED-225205","MED-225201","MED-225202","MED-225206","MED-225203"], "P"],
+  ["Internado de Otorrinolaringología, Dermatología y Oftalmología","MED-247202", 9, 9, "FP", ["MED-225204","MED-225205","MED-225201","MED-225202","MED-225206","MED-225203"], "P"],
+  ["Electivo","MED-247203", 6, 6, "FP", ["MED-225204","MED-225205","MED-225201","MED-225202","MED-225206","MED-225203"], "P"]
+],
+}
