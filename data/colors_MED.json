@@ -1,0 +1,8 @@
+{
+  "FG": ["#00838F", "Formación General"],
+  "FE": ["#6A1B9A", "Formación Especialidad"],
+  "FP": ["#388E3C", "Formación Práctica"],
+  "FO": ["#F57C00", "Formación Optativa"],
+  "EL": ["#1976D2", "Electivo"]
+}
+.
