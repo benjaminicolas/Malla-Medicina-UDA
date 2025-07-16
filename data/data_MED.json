@@ -69,7 +69,7 @@
   ["Pediatría y Cirugía Infantil","MED-225103", 15, 15, "FE", ["MED224102"], "I"],     
   ["Traumatología y Ortopedia","MED-225102", 3, 3, "FE", ["MED-224102"], "I"],       
   ["Dermatología","MED-225104", 3, 3, "FE", ["MED-224102"], "I"],    
-  ["Oftalmología","MED-225105", 3, 3, "FE",, "I"]                             
+  ["Oftalmología","MED-225105", 3, 3, "FE", [], "I"]                             
 ],
 "s10": [
   ["Integrado de Ginecología y Obstetricia","MED-225204", 14, 14, "FE", ["MED-224102"], "P"],
